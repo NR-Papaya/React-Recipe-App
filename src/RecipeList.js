@@ -6,6 +6,7 @@ function RecipeList({ recipes, deleteRecipeHandler }) {
 	const htmlRecipeList = recipes.map((recipe, index) => (
 		<ConvertedRecipe
 			index={index}
+      key={index}
 			recipe={recipe}
 			deleteRecipeHandler={deleteRecipeHandler}
 		/>
