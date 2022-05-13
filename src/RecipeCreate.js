@@ -96,5 +96,4 @@ function RecipeCreate({ createRecipeHandler }) {
 		</form>
 	);
 }
-
 export default RecipeCreate;
