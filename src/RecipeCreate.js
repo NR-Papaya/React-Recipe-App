@@ -36,6 +36,7 @@ function RecipeCreate({ createRecipeHandler }) {
 								id="name"
 								onChange={changeHandler}
 								style={{ width: "100%" }}
+								required
 							></input>
 						</td>
 						<td>
@@ -47,6 +48,7 @@ function RecipeCreate({ createRecipeHandler }) {
 								id="cuisine"
 								onChange={changeHandler}
 								style={{ width: "100%" }}
+								required
 							></input>
 						</td>
 						<td>
@@ -58,6 +60,7 @@ function RecipeCreate({ createRecipeHandler }) {
 								id="photo"
 								onChange={changeHandler}
 								style={{ width: "100%" }}
+								required
 							></input>
 						</td>
 						<td>
@@ -69,6 +72,7 @@ function RecipeCreate({ createRecipeHandler }) {
 								id="ingredients"
 								onChange={changeHandler}
 								style={{ width: "75%" }}
+								required
 							></textarea>
 						</td>
 						<td>
@@ -80,6 +84,7 @@ function RecipeCreate({ createRecipeHandler }) {
 								id="preparation"
 								onChange={changeHandler}
 								style={{ width: "75%" }}
+								required
 							></textarea>
 						</td>
 						<td>
